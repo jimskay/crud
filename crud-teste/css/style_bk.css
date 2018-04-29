@@ -1,0 +1,35 @@
+/*
+OwlConcept.com
+Version: 2.5
+
+The all new website by OwlConcept Team.
+
+Design: Tiago Moleano Gomes
+Development: Robson Junior
+
+*/
+
+
+.scrollable-area{width:100%;}
+#portfolio-panel #web div.item,#portfolio-panel #design div.item{width:250px;height:160px;float:left;display:block;position:relative;overflow:hidden;z-index:50;margin:0;padding:0;}
+#portfolio-panel div.item a{text-decoration:none;}
+#portfolio-panel div.item img{width:250px;height:160px;}
+#portfolio-panel div.item .info{display:none;position:absolute;bottom:0;width:100%;opacity:0.8;background-color:#000;color:#FFF;z-index:51;}
+#portfolio-panel div.item .info p{padding:0 10px 10px;}
+#portfolio-panel div.item .info h2{font-family:HelveticaNeueRegular, Helvetica, Geneva, sans-serif;font-size:16px;line-height:20px;color:#FFF;padding:10px 10px 5px;}
+a.prev,a.next{width:15px;height:160px;display:block;position:absolute;top:0;}
+a.prev{left:215px;background:url(images/seta_dir.png) left center no-repeat;}
+a.next{right:-5px;background:url(images/seta_esq.png) left center no-repeat;}
+#portfolio-panel #web,#portfolio-panel #design{width:760px;height:160px;position:relative;z-index:6;padding-left:230px;margin:0 auto;}
+#portfolio-panel #web h1,#portfolio-panel #design h1{color:#FFF;position:absolute;left:0;top:50%;margin-top:-12px;font-family:CaviarDreamsRegular, Helvetica, sans-serif;font-size:23px;text-align:right;width:200px;display:block;text-transform:uppercase;}
+#portfolio-panel #web div.item,#portfolio-panel #design div.item{width:250px;height:160px;float:left;display:block;position:relative;overflow:hidden;z-index:50;margin:0;padding:0;}
+#portfolio-panel div.item a{text-decoration:none;}
+#portfolio-panel div.item img{width:250px;height:160px;}
+#portfolio-panel div.item .info{display:none;position:absolute;bottom:0;width:100%;opacity:0.8;background-color:#000;color:#FFF;z-index:51;}
+#portfolio-panel div.item .info p{padding:0 10px 10px;}
+#portfolio-panel div.item .info h2{font-family:HelveticaNeueRegular, Helvetica, Geneva, sans-serif;font-size:16px;line-height:20px;color:#FFF;padding:10px 10px 5px;}
+a.prev,a.next{width:15px;height:160px;display:block;position:absolute;top:0;}
+a.prev{left:215px;background:url(images/seta_dir.png) left center no-repeat;}
+a.next{right:-5px;background:url(images/seta_esq.png) left center no-repeat;}
+.pagination{text-align:center;}.pagination a{background:url(images/miscellaneous_sprite.png) 0 -100px no-repeat transparent;width:15px;height:15px;display:inline-block;margin:0 5px 0 0;}
+.pagination a.selected{background-position:-25px -100px;cursor:default;}

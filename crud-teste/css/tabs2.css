@@ -1,0 +1,161 @@
+	
+		div.domtab{
+			padding:0 3em;
+			width:80%;
+			font-size:90%;
+		}
+		ul.domtabs{
+			float:left;
+			width:100%;
+			margin:2em 0 0 0;
+			z-index:4;				
+		}
+		ul.domtabs li{
+			float:left;
+			padding:0 .5em 0 0;
+		}
+		ul.domtabs a:link,
+		ul.domtabs a:visited,
+		ul.domtabs a:active,
+		ul.domtabs a:hover{
+			display:block;
+			background-image:url(../images/buttom-carrousel-hover.png);
+			background-repeat:no-repeat;
+			color:#ccc;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		html>body ul.domtabs a:link,
+		html>body ul.domtabs a:visited,
+		html>body ul.domtabs a:active,
+		html>body ul.domtabs a:hover{
+			height:auto;
+			min-height:3em;
+		}
+		ul.domtabs a:hover{
+		
+		}
+		div.domtab div{
+			clear:both;
+			width:auto;
+			color:#fff;
+			padding:1em 3em;
+		}
+		ul.domtabs li.domtabs active a:link,
+		ul.domtabs li. domtabsactive a:visited,
+		ul.domtabs li.active a:active,
+		ul.domtabs li.active a:hover{
+			background-image:url(../images/buttom-carrousel.png);
+			color:#fff;
+		}
+		#domtabprintview{
+			float:right;
+			padding-right:1em;
+			text-align:right;
+		}
+		#domtabprintview a:link,
+		#domtabprintview a:visited,
+		#domtabprintview a:active,
+		#domtabprintview a:hover{
+			color:#fff;
+		}
+		p{
+			margin:0 0 .5em 0;
+			line-height:1.3em;
+		}
+		h2{
+			font-size:1.3em;
+			text-transform:uppercase;
+			font-family:"Trebuchet MS",Arial,Sans-Serif;
+		}
+		h1{
+			font-size:2em;
+			text-align:center;
+			font-weight:normal;
+			text-transform:uppercase;
+			font-family:"Trebuchet MS",Arial,Sans-Serif;
+			padding:.5em 0;
+			background:#000;
+			border-bottom:1px solid #666;
+		}
+		pre{
+			font-size:1.2em;
+			padding:1em;
+		}
+		div.domtab div a:link,
+		div.domtab div a:visited,
+		div.domtab div a:active
+		{
+			color:#fff;
+			display:block;
+			padding:1em .5em;
+			font-weight:bold;
+			font-size:1.3em;
+		}
+		div.domtab div h2 a,
+		div.domtab div h2 a:hover,
+		div.domtab div h2 a:active
+		{
+			color:#cfc;
+			display:inline;
+			padding:0;
+			font-weight:normal;
+			font-size:1em;
+		}
+		
+/* other scheme! */
+#other{
+	font-size:.8em;
+	margin-left:-40px;
+	width:980px;
+	margin-bottom:3em;
+	float:left;
+	display:table;
+}
+div#other.domtab div{
+	color:#fff;
+	padding:1em 1em;
+	width:980px;
+	/*height:300px;*/
+	height:400px;
+	z-index:2;
+	margin-top:-30px;
+	display:table;
+}
+		
+#other ul.domtabs a:hover{
+}
+div#other ul.domtabs li.active a:link,
+div#other ul.domtabs li.active a:visited,
+div#other ul.domtabs li.active a:active,
+div#other ul.domtabs li.active a:hover{
+	background-image:url(../images/buttom-carrousel.png);
+	background-repeat:no-repeat;
+	color:#fff;
+}
+#other div{
+	float:left;
+}
+ul.prevnext{
+	float:left;
+	width:100%;
+}
+ul.prevnext li{
+	float:left;
+	width:49%;
+}
+ul.prevnext li.next{
+	float:right;
+	text-align:right;
+}
+
+
+.model{
+	color:#FFFFFF;
+	width:75px;
+	margin-top:-48px;
+	margin-left:-10px;
+	font-size:12px;
+	font-family:"source_sans_proregular";
+	
+}

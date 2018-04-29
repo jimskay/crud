@@ -1,0 +1,100 @@
+.slider-home {
+  max-width: 1920px;
+  height:800px;
+  margin: 0 auto;
+
+}
+.royalSlider {
+	height: 450px;
+	width: 100%;
+}
+.rsMinW .rsArrowLeft {
+	bottom: 220px !important;
+	left: 60px !important;
+}
+.rsMinW .rsArrowIcn {
+	height: 36px !important;
+}
+.rsMinW .rsArrowLeft .rsArrowIcn,
+.rsMinW .rsArrowLeft:hover .rsArrowIcn {
+	background-image: url("../images/btn_banner_seta_esquerda_novo.png") !important;
+	background-position: 0 0 !important;
+}
+.rsMinW .rsArrowRight {
+	bottom: 220px !important;
+	right: 60px !important;
+}
+.rsMinW .rsArrowRight .rsArrowIcn,
+.rsMinW .rsArrowRight:hover .rsArrowIcn {
+	background-image: url("../images/btn_banner_seta_direita_novo.png") !important;
+	background-position: 0 0 !important;
+}
+.rsMinW .rsBullets {
+	right: 45%;
+	width: auto;
+	display: none;
+}
+.rsMinW .rsBullets .rsNavItem {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #1E222B;
+	cursor: pointer !important;
+	display: inline-block !important;
+	height: 17px !important;
+	margin-right: 10px !important;
+	padding: 0 !important;
+	width: 17px !important;
+}
+.rsMinW .rsBullets .rsNavItem span {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: transparent !important;
+	border: 0 none !important;
+	display: block !important;
+	height: 17px !important;
+	width: 17px !important;
+}
+.rsMinW .rsBullets .rsNavItem.rsNavSelected {
+	background-color: #84b9eb;
+}
+
+	.heroSlider .rsOverflow,
+	.royalSlider.heroSlider {
+		height: 475px;
+	}
+
+
+
+	.heroSlider .rsOverflow,
+	.royalSlider.heroSlider {
+		height: 475px;
+	}
+
+
+
+	.heroSlider .rsOverflow,
+	.royalSlider.heroSlider {
+		height: 475px;
+	}
+}
+
+	.royalSlider.heroSlider,
+	.royalSlider.heroSlider .rsOverflow {
+		height: 475px;
+	}
+
+/*AlteraÃ§Ã£o para slide responsivo*/
+
+    .heroSlider .rsOverflow, .royalSlider.heroSlider {
+        height: 800px !important;
+    }
+    img.rsImg {
+    	height: 800px !important;
+		margin-top:0px;
+    }
+    .rsMinW .rsArrowLeft, .rsMinW .rsArrowRight {
+    	bottom: 288px !important;
+		top:45%;
+    }

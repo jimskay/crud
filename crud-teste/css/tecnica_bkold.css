@@ -1,0 +1,235 @@
+@import url(entypo.css);
+@import url(fonts.css);
+		#container-col-tabs{
+			width: 980px;
+			height:450px;
+			margin: 0 auto;
+			margin-top:-50px;
+			display:table;
+		}
+
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background-image:url(../images/buttom-ficha-tecnica-hover.png);
+			background-repeat:no-repeat;
+			width:142px;
+			height:34px;
+			color: #fff;
+			display: inline-block;
+			padding:4px 9px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background-image:url(../images/buttom-ficha-tecnica.png);
+			background-repeat:no-repeat;
+			color: #fff;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 15px 0px;
+
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+		
+		.container_tabs{
+			width:950px;
+			margin: 0 auto;
+			display:table;
+		
+		}
+		
+		.container_tabs-1{
+			width:950px;
+			height:80px;
+			margin: 0 auto;
+			display:table;
+		
+		}
+		
+		.tabs-tabs{
+			width: 160px;
+			height:50px;
+			float:right;
+			font-family:"source_sans_proregular";
+			font-size:27px;
+			text-align:center; 
+			color:#C40003;
+		
+		}
+		
+		.tabs-tabs2{
+			width: 296px;
+			height:30px;
+			float:right;
+			font-family:"source_sans_proregular";
+			font-size:27px;
+			text-align:center; 
+			color:#C40003;
+		
+		}
+		.tabs-tabs3{
+			width: 200px;
+			height:30px;
+			float:right;
+			font-family:"source_sans_proregular";
+			font-size:27px;
+			text-align:center; 
+			color:#C40003;
+		
+		}
+		
+	 .tabs-tabs4{
+			width: 220px;
+			height:30px;
+			float:right;
+			font-family:"source_sans_proregular";
+			font-size:15px;
+			text-align:center; 
+			color:#C40003;
+		
+		}
+		.content-tabs{
+			background-color:#DEDBDB;
+			width:950px;
+			height:40px;
+			margin-top:10px;
+			margin-right:-10px;
+		}
+		
+		.content-tabs2{
+			background-color:#DEDBDB;
+			width:950px;
+			height:66px;
+			margin-top:10px;
+			margin-right:-10px;
+		}
+		
+		.container-tabs{
+			width:950px;
+			display:table;
+
+		}
+		
+		.container-tabs-tabs{
+			width:950px;
+			height:100px;
+			display:table;
+
+		}
+		
+		.tabs1{
+			width:280px;
+			font-family:"source_sans_proregular";
+			display:table;
+			float:left;
+			font-size:14px;
+			padding:11px;
+			margin-top:-10px;
+
+
+		}
+		.tabs2{
+			width:153px;
+			height:39px;
+			font-family:"source_sans_proregular";
+			font-size:14px;
+			display:table;
+			float:right;
+			text-align:center;
+			margin-top:2px;
+			border-right:1px solid #bdbdbd;
+		}
+		
+			.tabs3{
+			width:280px;
+			height:10px;
+			font-family:"source_sans_proregular";
+			font-size:14px;
+			display:table;
+			padding:6px;
+			float:right;
+			text-align:center;
+			margin-top:5px;
+			border-right:1px solid #bdbdbd;
+		}
+		
+		
+			.tabs5{
+			width:200px;
+			height:10px;
+			font-family:"source_sans_proregular";
+			font-size:14px;
+			display:table;
+			padding:6px;
+			float:right;
+			text-align:center;
+			margin-top:5px;
+			border-right:1px solid #bdbdbd;
+		}
+		
+		
+			.tabs6{
+			width:280px;
+			height:40px;
+			font-family:"source_sans_proregular";
+			font-size:14px;
+			display:table;
+			padding:6px;
+			float:right;
+			text-align:center;
+			margin-top:5px;
+			border-right:1px solid #bdbdbd;
+		}
+		
+		
+			.tabs4{
+			width:200px;
+			height:10px;
+			font-family:"source_sans_proregular";
+			font-size:14px;
+			display:table;
+			padding:6px;
+			float:right;
+			text-align:center;
+			margin-top:5px;
+			border-right:1px solid #bdbdbd;
+		}
+		
+			.tabs8{
+			width:930px;
+			height:100px;
+			font-family:"source_sans_proregular";
+			font-size:12px;
+			display:table;
+			padding:9px;
+			float:right;
+			text-align:left;
+			margin-top:5px;
+			
+		}
+		
+
+		
+
+
+		
+		.model-tecnica{
+		color:#FFFFFF;
+		width:100px;
+		margin:4px  16px 0 0;
+		font-family:"source_sans_proregular";
+		
+}
+
+		
